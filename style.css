@@ -1,0 +1,151 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    height: 600px;
+    background-image: url("multimedia/Foto\ portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    margin: 50px;
+}
+
+h1, h2, h3, p, a{
+    text-align: center;  
+}
+
+h1{  
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: inherit;
+    width: 100%;
+    letter-spacing: 0.2em;
+}
+
+#inicio h2{
+    font-family: 'Alex Brush', cursive;
+    font-weight: inherit;
+    font-size: xxx-large;
+    color: #0b6262;
+}
+
+#inicio p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    margin-left: 25%;
+}
+
+
+#musica{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+}
+
+video controls{
+    background-color: #0b6262;
+}
+
+#horarios{
+    animation: reverse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#horarios h2{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+
+#horarios img{
+    height: 100px;
+    margin-left: 35%;
+
+}
+
+#horarios a{
+    text-decoration: none;
+
+}
+
+#dia_hora{
+    font-family: 'Lora', serif;
+    font-weight: inherit;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-top: 25px;
+}
+
+
+#caja_album{
+    width: center;
+    height: 500px;
+    margin: 50px 10%;
+    padding: 20px;
+    background-color: rgb(190, 139, 77);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3{
+    background-color: rgb(190, 139, 77);
+}
+
+#caja_album div{
+    margin: 0%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(190, 139, 77);
+}
+
+#caja_album div a{
+    margin: 0% 30%;
+    width: 30%;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: rgb(201, 143, 122);
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        height: 250px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header{
+        height: 200px;
+        background-size: cover;
+    }
+}
+
+  
+@media screen and (max-width: 250px) {
+    header{
+        height: 100px;
+        background-size: contain;
+    }
+}
+
+
+
