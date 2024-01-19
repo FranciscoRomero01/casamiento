@@ -58,6 +58,51 @@ a{
     height: 100px;
 }
 
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.countdown{
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 30px 10px;
+}
+
+.countdown p{
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #ff748c;
+}
+
+.countdown span{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #74ffe7;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 #horarios{
     animation: reverse; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
@@ -91,7 +136,9 @@ a{
     margin-top: 25px;
 }
 
-
+#celebracion, #ceremonia{
+    margin-left: 40px;
+}
 
 
 #ubicacion{
