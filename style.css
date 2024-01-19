@@ -140,14 +140,14 @@ a{
 }
 
 #celebracion, #ceremonia{
-    margin-left: 40px;
+    margin-left: 40px !important;
 }
 
 
 #ubicacion{
     text-align: center;
     width: 100%;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 25px;
     padding: 15px;
     background-color: #0b6262;
