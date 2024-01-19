@@ -10,6 +10,14 @@ header{
     background-size: cover;
 }
 
+header p{
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+    font-style: italic;
+    color: white;
+}
+
 div{
     margin: 50px;
 }
@@ -21,6 +29,7 @@ h1, h2, h3, p, a{
 h1{  
     font-family: 'Cormorant Garamond', serif;
     font-weight: inherit;
+    font-size: 31px;
     width: 100%;
     letter-spacing: 0.2em;
 }
@@ -63,8 +72,7 @@ a{
 
 #horarios img{
     height: 100px;
-    margin-left: 35%;
-
+    margin-left: 25%;
 }
 
 #horarios a{
@@ -89,7 +97,7 @@ a{
 #ubicacion{
     text-align: center;
     width: 100%;
-    margin-left: 140px;
+    margin-left: 90px;
     margin-top: 25px;
     padding: 15px;
     background-color: #0b6262;
@@ -120,30 +128,78 @@ a{
 #mujerHombre img{
     display: flex;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 25px;
+    margin-bottom: 10px;
     height: 50px;
     width: 50px;
 }
 
-#mujer{
-    width: 141;
+#hombre img{
+    height: 60px;
+    margin-bottom: 0px;
 }
+
+
+#hombre img{
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+#asistencia{
+    height: 200px;
+    text-align: center;
+}
+
+#asistencia h2{
+    font-family: 'Lora', serif;
+}
+
+#asistencia p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contacto{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#contacto a{
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    margin-left: 0px;
+    background-color: #0b6262;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 
 #caja_album{
     width: center;
     height: 500px;
-    margin: 50px 10%;
+    margin: 100px 10%;
     padding: 20px;
-    background-color: rgb(190, 139, 77);
+    background-color: #b9d9eb;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-h3{
-    background-color: rgb(190, 139, 77);
+
+#caja_album img{
+    height: 100px;
+    width: 100px;
+    margin-left: 35%;
 }
+
 
 #caja_album div{
     margin: 0%;
@@ -151,7 +207,6 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(190, 139, 77);
 }
 
 #caja_album div a{
@@ -162,31 +217,6 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     border-radius: 15px;
-    color: whitesmoke;
-    background-color: rgb(201, 143, 122);
+    color: #b9d9eb;
+    background-color: white;
 }
-
-@media screen and (max-width: 500px) {
-    header{
-        height: 250px;
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    header{
-        height: 200px;
-        background-size: cover;
-    }
-}
-
-  
-@media screen and (max-width: 250px) {
-    header{
-        height: 100px;
-        background-size: contain;
-    }
-}
-
-
-
