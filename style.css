@@ -29,7 +29,8 @@ h1, h2, h3, p, a{
 h1{  
     font-family: 'Cormorant Garamond', serif;
     font-weight: inherit;
-    font-size: 31px;
+    color: #26879f;
+    font-size: 30px;
     width: 100%;
     letter-spacing: 0.2em;
 }
@@ -58,6 +59,10 @@ a{
     height: 100px;
 }
 
+#caja{
+    margin: 20px 0px;
+}
+
 .container{
     width: 100%;
     display: flex;
@@ -72,14 +77,9 @@ a{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    width: 100%;
 }
 
-h1{
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    padding: 30px 10px;
-}
 
 .countdown p{
     display: grid;
@@ -89,18 +89,21 @@ h1{
     width: 100px;
     border-radius: 50%;
     color: #fff;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
-    background-color: #ff748c;
+    background-color: #b9d9eb;
+    height: 50px;
+    width: 50px;
+    margin: 0px 15px;
 }
 
 .countdown span{
     display: block;
     padding: 10px;
     text-align: center;
-    color: #74ffe7;
-    font-size: 1.5rem;
-    font-weight: 400;
+    color: #b9d9eb;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 #horarios{
