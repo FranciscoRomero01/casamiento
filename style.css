@@ -300,3 +300,16 @@ a{
     color: #b9d9eb;
     background-color: white;
 }
+
+#final h2{
+    font-family: 'Alex Brush', cursive;
+    font-size: 70px;
+    font-weight: inherit;
+}
+
+#final h3{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #26879f;
+}
