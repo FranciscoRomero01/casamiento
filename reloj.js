@@ -26,6 +26,10 @@ let interval = setInterval(function(){
     $minutes.innerHTML = minutes;
     $seconds.innerHTML = ('0' + seconds).slice(-2);
 
+
+    console.log(days, hours, minutes)
+
+
     //Cuando llegue a 0
     if(distance < 0){
         clearInterval(interval);
