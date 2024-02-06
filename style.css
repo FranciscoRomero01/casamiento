@@ -70,6 +70,21 @@ a{
     margin: 20px 0px;
 }
 
+#mensaje h3{
+    font-size: xx-large;
+    font-weight: initial;
+    font-family: 'Cormorant Garamond';
+}
+
+#mensaje h4{
+    font-size: 30px;
+    font-family: 'Herr Von Muellerhoff';
+    font-weight: initial;
+    text-align: center;
+    color: #efdabf;
+    height: 30px;
+}
+
 #cuenta{
     display: flex;
     justify-content: center;
@@ -92,48 +107,6 @@ a{
     box-shadow: 5px 5px 7px 1px #efdabf;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-
-.countdown{
-    margin: 0%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    width: 100%;
-}
-
-
-.countdown p{
-    display: grid;
-    place-items: center;
-    border: solid 1px #fff;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #b9d9eb;
-    height: 50px;
-    width: 50px;
-    margin: 0px 15px;
-}
-
-.countdown span{
-    display: block;
-    padding: 10px;
-    text-align: center;
-    color: #b9d9eb;
-    font-size: 15px;
-    font-weight: bold;
-}
 
 #horarios{
    
@@ -194,6 +167,14 @@ a{
     border-radius: 5px;
 }
 
+#fondo{
+    background: url("multimedia/Descarga\(2\).jpeg") no-repeat;
+    background-position-y: 180px;
+    background-position-x: -17px;
+    margin: 50px 0px;
+}
+
+
 #vestimenta{
     margin: 0%;
     
@@ -209,30 +190,28 @@ a{
 
 #mujerHombre {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     margin-left: 0%;
     margin-top: 20px;
 }
 
 #mujerHombre img{
-    display: flex;
     width: 100%;
-    margin-left: 25px;
     margin-bottom: 10px;
     height: 50px;
     width: 50px;
 }
 
-#hombre img{
-    height: 60px;
-    margin-bottom: 0px;
+#mujerHombre h4{
+    font-weight: bolder;
+    font-family: system-ui;
+    color: #c9a38b;
+    font-size: x-large;
 }
 
 
-#hombre img{
-    height: 60px;
-    margin-bottom: 0px;
-}
 
 #regalo{
     display: flex;
@@ -242,7 +221,7 @@ a{
 
 
 #regalo img{
-    height: 80px;
+    height: 70px;
 }
 
 #regalo h3{
@@ -254,8 +233,8 @@ a{
 #regalo p{
     font-family: 'Courier New', Courier, monospace;
     font-size: smaller;
-    font-weight: bolder;
-    color: #37bebe;
+    font-weight: bold;
+
 }
 
 
@@ -297,7 +276,7 @@ a{
     font-size: 10px;
     padding: 15px;
     margin-left: 0px;
-    background-color: #0b6262;
+    background-color: #ffc2c0;;
     color: aliceblue;
     border-radius: 5px;
     text-decoration: none;
@@ -307,11 +286,12 @@ a{
 
 
 #caja_album{
-    width: center;
-    height: 500px;
-    margin: 100px 10%;
+    height: 300px;
+    margin-top: 100px;
+    margin: 0px;
+    margin-top: 100px;
     padding: 20px;
-    background-color: #b9d9eb;
+    background-color: #f1dfc8;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -328,7 +308,6 @@ a{
 
 #caja_album div{
     margin: 0%;
-    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -337,13 +316,14 @@ a{
 #caja_album div a{
     margin: 0% 30%;
     width: 30%;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    border-radius: 15px;
-    color: #b9d9eb;
-    background-color: white;
+    border-radius: 10px;
+    color: white;
+    background-color: wheat;
+    border: white solid;
 }
 
 #final h2{
