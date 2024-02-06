@@ -16,6 +16,7 @@ header h1{
     font-family: 'Alex Brush', cursive;
     letter-spacing: inherit;
     color: white;
+    margin: 0%;
     
 }
 
@@ -29,13 +30,13 @@ div{
 }
 
 h1, h2, h3, p, a{
-    text-align: center;  
+    text-align: center;
 }
 
 h1{  
     font-family: 'Cormorant Garamond', serif;
     font-weight: inherit;
-    font-size: 30px;
+    font-size: 30px !important;
     width: 100%;
     letter-spacing: 0.2em;
 }
@@ -71,18 +72,20 @@ a{
 }
 
 #mensaje h3{
-    font-size: xx-large;
+    font-size: xxx-large;
     font-weight: initial;
     font-family: 'Cormorant Garamond';
+    margin: 0%;
 }
 
 #mensaje h4{
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'Herr Von Muellerhoff';
     font-weight: initial;
     text-align: center;
     color: #efdabf;
-    height: 30px;
+    height: 50px;
+    margin: 0%;
 }
 
 #cuenta{
@@ -109,10 +112,10 @@ a{
 
 
 #horarios{
-   
-    background: url("multimedia/Descarga\(1\).jpeg");
-    background-position: 487px;
-    background-position-y: 27px;
+    background: url(multimedia/Descarga\(1\).jpeg);
+    background-position: 495px;
+    background-position-y: 147px;
+    background-repeat: repeat-x;
     margin: 0px;
 }
 
@@ -169,15 +172,15 @@ a{
 
 #fondo{
     background: url("multimedia/Descarga\(2\).jpeg") no-repeat;
-    background-position-y: 180px;
-    background-position-x: -17px;
-    margin: 50px 0px;
+    background-position-y: 195px;
+    background-position-x: -28px;
+    margin: 80px 0px;
 }
 
 
 #vestimenta{
     margin: 0%;
-    
+    margin-bottom: 80px;
 }
 
 #vestimenta h2{
@@ -185,7 +188,6 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: inherit bold;
     font-size: 25px;
-    
 }
 
 #mujerHombre {
@@ -211,6 +213,12 @@ a{
     font-size: x-large;
 }
 
+#mujerHombre p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: inherit;
+}
+
 
 
 #regalo{
@@ -228,12 +236,13 @@ a{
     margin: 20px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.2em;
+    font-size: x-large;
 }
 
 #regalo p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: smaller;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: inherit;
 
 }
 
@@ -256,6 +265,7 @@ a{
 
 #asistencia h2{
     font-family: 'Lora', serif;
+    font-size: x-large;
 }
 
 #asistencia p{
@@ -325,6 +335,12 @@ a{
     background-color: wheat;
     border: white solid;
 }
+
+#caja_album h3{
+    font-size: x-large;
+    padding: 0% 15%;
+}
+
 
 #final h2{
     font-family: 'Alex Brush', cursive;
