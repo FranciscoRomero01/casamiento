@@ -369,22 +369,13 @@ a{
 
 .imagen1{
     width: 92%;
-    animation: imagen1 linear both;
-    animation-timeline: view();
-    animation-range: entry 20% cover 30%;
 }
 
 .imagen2, .imagen3{
     float: left;
-    animation: imagenes23 linear both;
-    animation-timeline: view();
-    animation-range: entry 20% cover 30%;
 }
 .imagen4, .imagen5{
     float: right;
-    animation: imagenes45 linear both;
-    animation-timeline: view();
-    animation-range: entry 20% cover 30%;
 }
 
 @keyframes imagen1 {
