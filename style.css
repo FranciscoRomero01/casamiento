@@ -291,8 +291,20 @@ a{
     border-radius: 5px;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
+.pri{
+    animation: imagenes23 linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+}
+
+.maxi{
+    animation: imagenes45 linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+}
 
 
 #caja_album{
@@ -339,39 +351,79 @@ a{
 }
 
 #fotos{
-    width: 350px;
-    height: 800px;
-    margin: 25px;
+    width: 90%;
+    height: 750px;
+    margin: 5%;
+}
+
+#fotos h3{
+    font-family: 'Alex Brush', cursive;
+
 }
 
 .materialboxed{
-    width: 150px;
+    width: 41%;
     margin: 15px;
+    
 }
 
 .imagen1{
-    width: 315px;
-    height: 230px;
+    width: 92%;
+    animation: imagen1 linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
 }
 
-.imagen2{
+.imagen2, .imagen3{
     float: left;
+    animation: imagenes23 linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
 }
-
-.imagen3{
-    float: left;
-}
-
-.imagen4{
+.imagen4, .imagen5{
     float: right;
-    width: 140px;
+    animation: imagenes45 linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
 }
 
-.imagen5{
-    float: right;
-    width: 140px;
-    height: 227px;
+@keyframes imagen1 {
+    from{
+        opacity: 5;
+        translate: 0 200px;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
 }
+
+
+@keyframes imagenes23 {
+    from{
+        opacity: 5;
+        translate: -100px 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes imagenes45 {
+    from{
+        opacity: 5;
+        translate: 100px 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
 
 #final h2{
     font-family: 'Alex Brush', cursive;
@@ -380,8 +432,7 @@ a{
 }
 
 #final h3{
-    font-family: 'Herr Von Muellerhoff', cursive;
-    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
     margin-bottom: 50px;
-    color: #26879f;
 }
