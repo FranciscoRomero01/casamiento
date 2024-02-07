@@ -272,10 +272,28 @@ a{
 }
 
 #efectivo{
-    color: black !important;
     font-family: 'Cormorant Garamond';
+    margin: 0%;
+    font-size: larger;
+    color: #ffc2c0;
+}
+
+
+.modal, .modal-content, .modal-footer{
+    margin: 0%;
+    padding: 0%;
+    width: 70%;
+}
+
+
+.modal-content{
+    margin: 0%;
+    padding: 0%;
 
 }
+
+
+
 
 #asistencia{
     height: 200px;
