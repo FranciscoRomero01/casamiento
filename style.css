@@ -8,6 +8,7 @@ header{
     background-image: url("multimedia/Foto\ portada.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: cover;
 }
 
 header h1{
@@ -334,7 +335,7 @@ a{
 
 
 #caja_album{
-    height: 300px;
+    height: 400px;
     margin-top: 100px;
     margin: 0px;
     margin-top: 100px;
@@ -356,15 +357,14 @@ a{
     font-weight: bold;
     border-radius: 10px;
     color: white;
-    background-color: wheat;
+    background-color: #8bc34a;
     border: white solid;
     margin: 0px;
 }
 
 #caja_album h3{
-    font-size: large;
+    font-size: medium;
     padding: 0% 15%;
-    color: white;
     margin-bottom: 0px;
     font-family: 'Cormorant Garamond';
     font-weight: bolder;
@@ -374,9 +374,12 @@ a{
 #caja_album h4{
     font-size: medium;
     padding: 0% 15%;
-    color: white;
     margin-top: 0px;
     font-family: 'Cormorant Garamond';
+}
+
+#caja_album img{
+    width: 120px;
 }
 
 #fotos{
