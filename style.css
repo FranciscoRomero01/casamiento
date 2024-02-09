@@ -257,7 +257,7 @@ a{
 }
 
 #regalo p{
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Cormorant Garamond';
 
 }
@@ -273,7 +273,9 @@ a{
     font-family: 'Cormorant Garamond';
     margin: 0%;
     font-size: larger;
-    color: #ffc2c0;
+    margin: 20px 0px;
+    letter-spacing: 0.1rem;
+    color: #f55048;
 }
 
 
@@ -287,7 +289,17 @@ a{
 .modal-content{
     margin: 0%;
     padding: 0%;
+}
 
+.modal-content div{
+    margin: 15px;
+    width: 100%;
+    font-family: 'Cormorant Garamond';
+}
+
+.modal-content div p{
+    text-align: left;
+    color: #ffa7a3;
 }
 
 
@@ -319,7 +331,7 @@ a{
 
 #contacto a{
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
     padding: 15px;
     margin-left: 0px;
     background-color: #ffc2c0;;
@@ -328,7 +340,7 @@ a{
     text-decoration: none;
     font-family: 'Cormorant Garamond';
     font-weight: bolder inherit;
-    
+    margin: 5px 0px;
 }
 
 
@@ -417,7 +429,7 @@ a{
 #final{
     text-align: center;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 300px;
 }
 
 #final h2{
