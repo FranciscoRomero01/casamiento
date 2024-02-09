@@ -132,7 +132,7 @@ a{
     background-position: 513px;
     background-position-y: 145px;
     background-repeat: repeat-x;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(multimedia/Descarga\(1\).jpeg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
     margin: 80px 0px;
 }
 
@@ -185,9 +185,9 @@ a{
 }
 
 #fondo{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("multimedia/Descarga\(2\).jpeg");
-    background-position-y: 355px;
-    background-position-x: -70px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("multimedia/Descarga\(2\).jpeg");
+    background-position-y: 202px;
+    background-position-x: -99px;
     background-repeat: no-repeat;
     margin: 80px 0px;
 }
@@ -234,19 +234,20 @@ a{
 
 
 
-#regalo{
+.nose{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 
-#regalo img{
+.nose img{
     height: 50px;
+    margin-bottom: 30px;
 }
 
-#regalo h3{
+.nose h3{
     padding: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -256,28 +257,33 @@ a{
     margin: 0%;
 }
 
-#regalo p{
+.nose p{
     font-size: 19px;
     font-family: 'Cormorant Garamond';
-
 }
 
 
 #carta{
-    margin-top: 55px;
     height: 48px !important;
     width: 48px;
+    margin: 0%;
 }
 
 #efectivo{
-    font-family: 'Cormorant Garamond';
-    margin: 0%;
-    font-size: larger;
-    margin: 20px 0px;
-    letter-spacing: 0.1rem;
-    color: #f55048;
+    text-align: center;
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #f1d6ae;
+    color: aliceblue;
+    border-radius: 5px;
 }
 
+
+#pase, #idModal{
+    background-color: rgba(230, 230, 230, 0.849);
+}
 
 .modal, .modal-content, .modal-footer{
     margin: 0%;
@@ -285,28 +291,44 @@ a{
     width: 70%;
 }
 
+.modal-overlay{
+    margin: 0px;
+}
 
 .modal-content{
     margin: 0%;
     padding: 0%;
+    width: 80%;
 }
 
 .modal-content div{
     margin: 15px;
     width: 100%;
-    font-family: 'Cormorant Garamond';
 }
 
 .modal-content div p{
     text-align: left;
-    color: #ffa7a3;
+    font-family: sans-serif;
+    font-family: 'Cormorant Garamond';
 }
 
+.modal-pase div p{
+    text-align: center;
+}
+
+#fondo2{
+    margin: 0%;
+    background-position: 423px;
+    background-position-y: 41px;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
+    height: 575px;
+}
 
 #asistencia{
     height: 200px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 #asistencia h2{
@@ -319,6 +341,7 @@ a{
     margin-top: 20px;
     text-align: center;
     font-family: 'Cormorant Garamond';
+    font-size: 19px;
 }
 
 #contacto{
@@ -334,12 +357,12 @@ a{
     font-size: 14px;
     padding: 15px;
     margin-left: 0px;
-    background-color: #ffc2c0;;
+    background-color: #f1d6ae;;
     color: aliceblue;
     border-radius: 5px;
     text-decoration: none;
     font-family: 'Cormorant Garamond';
-    font-weight: bolder inherit;
+    font-weight: bolder;
     margin: 5px 0px;
 }
 
@@ -429,11 +452,16 @@ a{
 #final{
     text-align: center;
     margin: 20px;
-    margin-top: 300px;
+    margin-top: 200px;
+}
+
+#final img{
+    width: 50%;
+    margin-right: 28px;
 }
 
 #final h2{
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Herr Von Muellerhoff';
     font-size: 80px;
     font-weight: inherit;
 }
@@ -442,4 +470,9 @@ a{
     font-family: 'Alex Brush', cursive;
     font-size: 30px;
     margin-bottom: 50px;
+}
+
+#footer{
+    height: 20px;
+    background-color: #dfb77c;
 }
