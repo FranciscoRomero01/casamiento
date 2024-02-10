@@ -129,9 +129,9 @@ a{
 
 
 #horarios{
-    background-position: 513px;
+    background-position: 600px;
     background-position-y: 145px;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
     margin: 80px 0px;
 }
@@ -318,12 +318,15 @@ a{
 
 #fondo2{
     margin: 0%;
-    background-position: 423px;
+    background-position: 600px;
     background-position-y: 41px;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
     height: 575px;
 }
+
+
+
 
 #asistencia{
     height: 200px;
@@ -452,7 +455,7 @@ a{
 #final{
     text-align: center;
     margin: 20px;
-    margin-top: 200px;
+    margin-top: 1500px;
 }
 
 #final img{
@@ -475,4 +478,32 @@ a{
 #footer{
     height: 20px;
     background-color: #dfb77c;
+}
+
+
+@media screen and (max-width: 950px) {
+    
+    #fondo2{
+        margin: 0%;
+        background-position: 450px;
+        background-position-y: 41px;
+        background-repeat: repeat-x;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
+        height: 575px;
+    }
+
+    #horarios{
+        background-position: 513px;
+        background-position-y: 145px;
+        background-repeat: repeat-x;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(multimedia/Descarga\(1\).jpeg);
+        margin: 80px 0px;
+    }
+
+    #final{
+        text-align: center;
+        margin: 20px;
+        margin-top: 200px;
+    }
+    
 }
